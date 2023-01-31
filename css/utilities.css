@@ -1,0 +1,41 @@
+/* utility classes */
+body {
+  overflow-x: hidden;
+}
+.colored_text {
+  color: var(--colored-text);
+}
+.light_text {
+  color: var(--light-text);
+}
+.dark_text {
+  color: var(--dark-text);
+}
+.dark_background {
+  background: var(--dark-background);
+}
+.light_background {
+  background: var(--light-background);
+}
+.btn_colored {
+  display: inline-block;
+  padding: 15px 28px;
+  background: var(--colored-text);
+  color: var(--dark-text);
+  text-decoration: none;
+  font-weight: 500;
+  width: fit-content;
+}
+.btn_light {
+  display: inline-block;
+  padding: 8px 15px;
+  background: var(--light-text);
+  color: var(--dark-text);
+  text-decoration: none;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.rufina_text {
+  font-family: "Rufina", serif;
+}
