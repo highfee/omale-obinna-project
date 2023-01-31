@@ -1,6 +1,6 @@
 /* utility classes */
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .colored_text {
   color: var(--colored-text);
